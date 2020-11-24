@@ -1,10 +1,10 @@
 import React from 'react';
-import { FiArrowRight } from 'react-icons/fi';
+import { ImSearch } from 'react-icons/im';
 import { Link } from 'react-router-dom';
 import '../Styles/Pages/home.css';
 import Nav from '../../src/Components/Nav/Nav'
 
-function Home() {
+export default function Home() {
   return (
     <div id="home-page">
       <div className="content-wrapper">
@@ -17,12 +17,10 @@ function Home() {
         <Link
           // to="/filmes"
           className="enter-app">
-          < FiArrowRight size={26}
+          < ImSearch size={26}
             color="rgba(0, 0 , 0, 0.6)" />
         </Link>
       </div>
     </div>
   );
 }
-
-export default Home;

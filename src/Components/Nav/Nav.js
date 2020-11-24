@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../Styles/Components/nav.css'
 
-const Nav = () => {
+export default function Nav() {
   return (
     <div>
       <nav className="nav__container">
@@ -36,4 +36,3 @@ const Nav = () => {
   )
 }
 
-export default Nav
