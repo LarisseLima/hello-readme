@@ -1,14 +1,14 @@
-#header-page {
+#home-page {
     padding: 2rem;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(329.54deg, #8f2d56 0%, #00171f 100%);
+	background: linear-gradient(329.54deg, #6A040F 0%, #370617 100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#header-page .content-wrapper {
+#home-page .content-wrapper {
 	position: relative;
 	width: 100%;
 	max-width: 1100px;
@@ -22,21 +22,24 @@
     background-size: 500px;
 }
 
-#header-page .content-wrapper main {
+#home-page .content-wrapper main {
 	max-width: 350px;
 }
 
-#header-page .content-wrapper main h1 {
+#home-page .content-wrapper main h1 {
 	font-size: 86px;
 	font-weight: 900;
-    line-height: 78px;
-    margin-top: 40px;
+    line-height: 80px;
+	margin-top: 0;
+	color: #FFBA08;
+	
 }
 
-#header-page .content-wrapper main p {
+.content-wrapper main p {
 	margin-top: 40px;
 	font-size: 24px;
 	line-height: 34px;
+	color: #FFBA08;
 }
 
 .content-wrapper .location {

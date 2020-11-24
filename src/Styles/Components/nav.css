@@ -4,20 +4,22 @@
     margin: 0 auto;
     justify-content: space-between;
     align-content: center;
+    padding-top: 10px;
+    margin-left: 900px;
   }
   
   nav {
-    background-color: #dddddd;
+   
     padding-top: 30px;
   }
   
   ul {
     display: flex;
-    color: #fff;
+    color: #FFBA08;
   }
   
   .link {
-    color: #fff;
+    color: #FFBA08;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -25,6 +27,6 @@
   }
   
   .link:hover {
-    color: #744a6d;
+    color: #DC2F02;
   }
   

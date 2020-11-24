@@ -1,11 +1,11 @@
 import './Styles/global.css'
-import Home from '../src/Pages/Home'
+import Routes from './Routes/Routes'
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <Routes />
+    </>
 
   )
 }
