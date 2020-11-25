@@ -1,0 +1,10 @@
+aside.app-sidebar {
+    position: inherit;
+    height: 100%;
+    padding: 32px 24px;
+    background: #0B090A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
