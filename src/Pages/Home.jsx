@@ -2,7 +2,7 @@ import React from 'react';
 import { ImSearch } from 'react-icons/im';
 import { Link } from 'react-router-dom';
 import '../Styles/Pages/home.css';
-import Nav from '../../src/Components/Nav/Nav'
+import Nav from '../Components/Nav/Nav'
 
 export default function Home() {
   return (

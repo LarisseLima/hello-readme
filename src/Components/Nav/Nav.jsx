@@ -8,18 +8,16 @@ export default function Nav() {
       <nav className="nav__container">
         <ul className='nav__links'>
           <li>
-            <Link
-              // to="sobre" 
+            <Link to="/"
               className="link" >
-              Sobre
-                </Link>
+              Home
+              </Link>
           </li>
           <li>
-            <Link
-              //  to="dicas"
+            <Link to="tips"
               className="link">
               Dicas
-                </Link>
+              </Link>
           </li>
           <li>
             <Link
