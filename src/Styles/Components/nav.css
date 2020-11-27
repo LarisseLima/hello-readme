@@ -16,11 +16,12 @@
   ul {
     display: flex;
     color: #fa008a;
+   
   }
   
   .link {
     color: #fa008a;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     margin-right: 30px;

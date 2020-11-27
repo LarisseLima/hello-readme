@@ -1,5 +1,7 @@
+import React from 'react';
 import '../Styles/Components/sidebar.css';
-import Nav from '../Components/Nav/Nav'
+import Nav from './Nav/Nav'
+
 
 export default function Sidebar() {
     return (
