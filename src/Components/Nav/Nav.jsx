@@ -20,16 +20,13 @@ export default function Nav() {
               </Link>
           </li>
           <li>
-            <Link
-              // to="link"
-              className="link"
-            >
+            <Link to="links"
+              className="link">
               Links
                 </Link>
           </li>
         </ul>
       </nav>
-
     </div>
   )
 }
