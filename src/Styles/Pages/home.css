@@ -46,13 +46,14 @@
 	color: #fa008a;
 	font-family: 'Nunito', sans-serif;
 }
-
 .content-wrapper .enter-app {
-	position: inherit;
+	font-size: 18px;
+	font-family: 'Kalam', cursive;
+	position: relative;
 	right: 0;
 	bottom: 0;
-	width: 150px;
-	height: 70px;
+	width: 140px;
+	height: 60px;
 	background: #fa008a;
 	border-radius: 30px;
 	display: flex;
