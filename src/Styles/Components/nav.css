@@ -28,6 +28,11 @@
   }
   
   .link:hover {
-    color: #FF69BF;
+    
+  outline: 1.5px solid #f6fa00;
+  outline-offset: 8px;
+ 
+    
+    
   }
   
