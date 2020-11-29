@@ -1,6 +1,15 @@
+.nav__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo{
+  height: 70px;
+}
+
 .nav__container {
     display: flex;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     justify-content: space-between;
     align-content: center;
@@ -26,13 +35,13 @@
     cursor: pointer;
     margin-right: 30px;
   }
+
+  .selected-link {
+    border-bottom: 1.5px solid #f6fa00;
+  }
   
-  .link:hover {
-    
-  outline: 1.5px solid #f6fa00;
-  outline-offset: 8px;
- 
-    
-    
+  .link:hover {    
+    outline: 1.5px solid #f6fa00;
+    outline-offset: 8px;   
   }
   
