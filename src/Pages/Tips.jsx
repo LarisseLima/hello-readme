@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from '../Components/Sidebar';
 import Footer from '../Components/Footer/Footer';
+import PageTitle from '../Components/PageTitle/PageTitle';
 import '../Styles/Pages/tips.css';
 
 export default function Tips() {
@@ -8,8 +9,9 @@ export default function Tips() {
         <div id="tips-page">
             <Sidebar />
             <div class="tips-page-header">
-                <h1>Dicas</h1>
-                <p>O que é...</p>
+                <PageTitle
+                    pageTitle='Dicas'
+                />
             </div>
             <Footer />
         </div>

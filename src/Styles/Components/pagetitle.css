@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+h1 {
+    padding: 25px 0;
+    font-family: 'Kalam', cursive;
+    font-size: 54px;
+    width:100%;
+}

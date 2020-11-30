@@ -1,7 +1,7 @@
 aside.app-sidebar {
     position: inherit;
     height: 100%;
-    padding: 45px ;
+    padding: 20px ;
     background: #0B090A;
     display: flex;
     flex-direction: column;
