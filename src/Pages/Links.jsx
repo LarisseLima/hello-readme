@@ -1,9 +1,9 @@
 import React from 'react';
 import Sidebar from '../Components/Sidebar';
 import Footer from '../Components/Footer/Footer';
-import '../Styles/Pages/links.css';
 import data from '../Services/api.json';
 import PageTitle from '../Components/PageTitle/PageTitle';
+import '../Styles/Pages/links.css';
 
 export default function Links() {
   return (
