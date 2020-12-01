@@ -21,6 +21,10 @@ main p {
    font-family: 'Nunito', sans-serif;
    
 }
+
+ #img-di {
+    height: 70px;
+}
 span {
     font-weight: bold;
     color: #fa008a;
