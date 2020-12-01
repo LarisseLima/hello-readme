@@ -11,7 +11,7 @@ export default function Footer() {
         target="blank">
         <AiFillLinkedin />
       </a>
-      <a href="https://github.com/LarisseLima" className="icone-redes-gi"
+      <a href="https://github.com/LarisseLima/hello-readme" className="icone-redes-gi"
         target="blank">
         <AiFillGithub />
       </a>

@@ -2,11 +2,11 @@
 
 
 .tips__page-header {
-    width: 700px;
-    margin: 64px auto;
+    width: 800px;
+    margin: 70px auto;
     border: 1px solid  #fa008a;
     border-radius: 10px;
-    padding: 30px ;
+    padding: 40px ;
 }
 
 main h2,h3 {
@@ -17,13 +17,15 @@ main h2,h3 {
     
 }
 main p {
+   color:  #0e0d0d;
    margin-top: 15px;
+   font-size: 20px;
    font-family: 'Nunito', sans-serif;
    
 }
 
- #img-di {
-    height: 70px;
+ .img-di {
+    margin: 20px;
 }
 span {
     font-weight: bold;
