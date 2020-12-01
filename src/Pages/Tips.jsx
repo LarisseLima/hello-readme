@@ -2,22 +2,24 @@ import React from 'react';
 import Sidebar from '../Components/Sidebar';
 import Footer from '../Components/Footer/Footer';
 import PageTitle from '../Components/PageTitle/PageTitle';
+import { Link } from 'react-router-dom';
 import '../Styles/Pages/tips.css';
 
 export default function Tips() {
   return (
-    <div id="tips-page">
+    <div id="tips__page">
       <Sidebar />
-      <div class="tips-page-header">
+      <main class="tips__page-header">
         <PageTitle
           pageTitle='Dicas'
         />
-        <h3>O que é README?</h3>
+        <h2>O que é README?</h2>
         <p>README.md é um arquivo com extensão .md (Markdown). README é uma palavra em inglês que traduzida fica LEIAME.</p>
         <p>É o “primeiro passo” ao abrir um novo projeto, seja pra ver a documentação, dicas essenciais que precisa saber para rodar o projeto, descrição de seu projeto, etc. Tudo isso pode e deve ser adicionado no README!</p>
 
-        <h3>Estrutura básica de um README</h3>
-        <h3> Titulo e descrição do projeto:</h3>
+        <h2>Estrutura básica de um README</h2>
+
+        <h3> Titulo e descrição do projeto</h3>
         <p>Título, coloque um  nome curto do projeto <br></br>
           Descrição: Uma breve descrição do objetivo do projeto.</p>
 
@@ -38,8 +40,10 @@ export default function Tips() {
         Muito simples escolher uma licença, o github te ajuda com isso te dando um template.
         Geralmente você cria um arquivo LICENSE.</p>
 
-
-      </div>
+        <p>Hey Dev, ainda temos mais conteúdo para te ajudar, artigos,vídeos e templates prontos , vá para a página de
+        <span className='span-link'><Link to='/links'> Links! </Link></span>
+        </p>
+      </main>
       <Footer />
     </div>
   );

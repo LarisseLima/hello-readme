@@ -1,7 +1,32 @@
-.tips-page-header {
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+
+.tips__page-header {
     width: 700px;
     margin: 64px auto;
     border: 1px solid  #fa008a;
     border-radius: 10px;
     padding: 30px ;
+}
+
+main h2,h3 {
+    font-size: 28px;
+    font-family: 'Kalam', cursive;
+    color:  #fa008a;
+    padding-top: 15px;
+    
+}
+main p {
+   margin-top: 15px;
+   font-family: 'Nunito', sans-serif;
+   
+}
+span {
+    font-weight: bold;
+    color: #fa008a;
+}
+
+span:hover {
+    color: #f6fa00;
+    outline-offset: 8px;   
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
-#home-page {
+#home__page {
     padding: 2rem;
 	width: 100vw;
 	height: 100vh;
@@ -10,7 +10,7 @@
 	align-items: center;
 }
 
-#home-page .content-wrapper {
+#home__page .content-wrapper {
 	position: relative;
 	width: 100%;
 	max-width: 1100px;
@@ -24,12 +24,12 @@
     background-size: 500px;
 }
 
-#home-page .content-wrapper main {
+#home__page .content-wrapper main {
 	max-width: 350px;
 	
 }
 
-#home-page .content-wrapper main h1 {
+#home__page .content-wrapper main h1 {
 	margin-top: 30px;
 	font-size: 96px;
 	font-weight: 900;

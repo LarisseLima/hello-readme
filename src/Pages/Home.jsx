@@ -8,7 +8,7 @@ import '../Styles/global.css';
 
 export default function Home() {
   return (
-    <div id="home-page">
+    <div id="home__page">
       <div className="content-wrapper">
         <main>
           <Nav />
