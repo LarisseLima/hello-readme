@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import Sidebar from '../../Components/Sidebar/Sidebar';
 import Footer from '../../Components/Footer/Footer';
 import PageTitle from '../../Components/PageTitle/PageTitle';
-import Imgno from '../../assets/dicas/nome.png'
-import Imgdes from '../../assets/dicas/descricao.png'
-import Imgta from '../../assets/dicas/tabela.png'
-import Imgsta from '../../assets/dicas/status.png'
-import Imgtec from '../../assets/dicas/tecnologias.png'
-import Imgreq from '../../assets/dicas/requisitos.png'
-import Imgli from '../../assets/dicas/licenca.png'
+import Imgno from '../../assets/code/nome.png'
+import Imgdes from '../../assets/code/descricao.png'
+import Imgta from '../../assets/code/tabela.png'
+import Imgsta from '../../assets/code/status.png'
+import Imgtec from '../../assets/code/tecnologias.png'
+import Imgreq from '../../assets/code/requisitos.png'
+import Imgli from '../../assets/code/licenca.png'
 import './tips.css';
 
 export default function Tips() {
