@@ -1,9 +1,9 @@
 
-input[type=text] {
+input{
     border: none;
-    border-bottom: 2px solid #AF7595;
+    border-bottom: 2px solid #fa008a;
     width: 300px;
-    padding: 15px;
+    padding: 20px;
     outline: none;
     text-align: center;
     margin-right: 20px;

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Components/input.css';
+import Button from './Button'
+import '../../Styles/Components/input.css';
 
 
 const Input = ({ type, onChange, placeholder, value, onClick, refresh }) => {
@@ -11,8 +12,8 @@ const Input = ({ type, onChange, placeholder, value, onClick, refresh }) => {
             </div>
 
             <div>
-                <input onClick={refresh} btnText="Ver todos" />
-                <input onClick={onClick} btnText="Buscar" />
+                <Button onClick={refresh} btnText="Ver todos" />
+                <Button onClick={onClick} btnText="Buscar" />
             </div>
 
         </div>
