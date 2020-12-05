@@ -5,6 +5,7 @@ import data from '../Services/api.json';
 import PageTitle from '../Components/PageTitle/PageTitle';
 import '../Styles/Pages/links.css';
 
+
 export default function Links() {
   return (
     <div id="links-page">
@@ -16,8 +17,8 @@ export default function Links() {
         <ul>
           {data.map(({ type, title, link }) => <li> <a href={link}>{type} - {title}</a> </li>)}
         </ul>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
