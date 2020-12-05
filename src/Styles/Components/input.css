@@ -1,0 +1,12 @@
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #AF7595;
+    width: 300px;
+    padding: 15px;
+    outline: none;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+ 

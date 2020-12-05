@@ -3,6 +3,7 @@ import Sidebar from '../Components/Sidebar';
 import Footer from '../Components/Footer/Footer';
 import data from '../Services/api.json';
 import PageTitle from '../Components/PageTitle/PageTitle';
+import Input from '../Components/Input'
 import '../Styles/Pages/links.css';
 
 
@@ -14,6 +15,7 @@ export default function Links() {
         <PageTitle
           pageTitle='Links'
         />
+        <Input />
         <ul>
           {data.map(({ type, title, link }) => <li> <a href={link}>{type} - {title}</a> </li>)}
         </ul>
