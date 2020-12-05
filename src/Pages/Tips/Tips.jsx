@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Sidebar from '../Components/Sidebar';
-import Footer from '../Components/Footer/Footer';
-import PageTitle from '../Components/PageTitle/PageTitle';
-import Imgno from '../assets/dicas/nome.png'
-import Imgdes from '../assets/dicas/descricao.png'
-import Imgta from '../assets/dicas/tabela.png'
-import Imgsta from '../assets/dicas/status.png'
-import Imgtec from '../assets/dicas/tecnologias.png'
-import Imgreq from '../assets/dicas/requisitos.png'
-import Imgli from '../assets/dicas/licenca.png'
-import '../Styles/Pages/tips.css';
+import Sidebar from '../../Components/Sidebar/Sidebar';
+import Footer from '../../Components/Footer/Footer';
+import PageTitle from '../../Components/PageTitle/PageTitle';
+import Imgno from '../../assets/dicas/nome.png'
+import Imgdes from '../../assets/dicas/descricao.png'
+import Imgta from '../../assets/dicas/tabela.png'
+import Imgsta from '../../assets/dicas/status.png'
+import Imgtec from '../../assets/dicas/tecnologias.png'
+import Imgreq from '../../assets/dicas/requisitos.png'
+import Imgli from '../../assets/dicas/licenca.png'
+import './tips.css';
 
 export default function Tips() {
   return (

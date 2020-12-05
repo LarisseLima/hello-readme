@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button'
-import '../../Styles/Components/input.css';
+import './input.css';
 
 
 const Input = ({ type, onChange, placeholder, value, onClick, refresh }) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
-import '../../Styles/Components/footer.css';
+import './footer.css';
 
 export default function Footer() {
   return (

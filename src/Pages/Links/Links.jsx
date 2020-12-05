@@ -1,10 +1,10 @@
 import React from 'react';
-import Sidebar from '../Components/Sidebar';
-import Footer from '../Components/Footer/Footer';
-import data from '../Services/api.json';
-import PageTitle from '../Components/PageTitle/PageTitle';
-import Input from '../Components/Buttons/Input'
-import '../Styles/Pages/links.css';
+import Sidebar from '../../Components/Sidebar/Sidebar';
+import Footer from '../../Components/Footer/Footer';
+import data from '../../Services/api.json';
+import PageTitle from '../../Components/PageTitle/PageTitle';
+import Input from '../../Components/Buttons/Input'
+import './links.css';
 
 
 export default function Links() {

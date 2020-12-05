@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Styles/Components/sidebar.css';
-import Nav from './Nav/Nav'
+import Nav from '../Nav/Nav'
+import './sidebar.css';
 
 
 export default function Sidebar() {
