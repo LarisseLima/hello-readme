@@ -1,23 +1,48 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Sidebar from '../../Components/Sidebar/Sidebar';
 import Footer from '../../Components/Footer/Footer';
-import data from '../../Services/api.json';
+import dataFromApi from '../../Services/api.json';
 import PageTitle from '../../Components/PageTitle/PageTitle';
-import Input from '../../Components/Buttons/Input'
 import './links.css';
 
-
 export default function Links() {
+  // Estado contendo os dados do conteúdo da página
+  const [content, setContent] = useState(dataFromApi);
+  // Estado contendo o valor pesquisado
+  const [search, setSearch] = useState('');
+
+  useEffect(() => {
+    const contentWithFilter = dataFromApi.filter(content => {
+      return content.title.toLocaleLowerCase()
+        .includes(search.toLocaleLowerCase())
+    })
+
+    setContent(contentWithFilter);
+  }, [search])
+
+  const handleChange = (element) => {
+    setSearch(element.target.value)
+  }
+
   return (
     <div id="links-page">
       <Sidebar />
-      <div class="links-page-api">
+      <div className="links-page-api">
         <PageTitle
           pageTitle='Links'
         />
-        <Input />
+        <div>
+          <input
+            type="text"
+            onChange={element => handleChange(element)}
+            placeholder="Pesquise pelo nome do conteúdo"
+            value={search}>
+          </input>
+        </div>
         <ul>
-          {data.map(({ type, title, link }) => <li> <a href={link}>{type} - {title}</a> </li>)}
+          {content.map((item, index) => {
+            return <li key={index}> <a href={item.link}>{item.type} - {item.title}</a> </li>
+          })}
         </ul>
         <Footer />
       </div>
