@@ -25,9 +25,9 @@ export default function Links() {
   }
 
   return (
-    <div id="links-page">
+    <div id="links__page">
       <Sidebar />
-      <div className="links-page-api">
+      <div className="links__page-api">
         <PageTitle
           pageTitle='Links'
         />
@@ -39,11 +39,13 @@ export default function Links() {
             value={search}>
           </input>
         </div>
-        <ul>
-          {content.map((item, index) => {
-            return <li key={index}> <a href={item.link}>{item.type} - {item.title}</a> </li>
-          })}
-        </ul>
+        <div id="container">
+          <ul className="list__warper" >
+            {content.map((item, index) => {
+              return <li className="card" key={index}> <a target="_blank" href={item.link}>{item.type} - {item.title}</a> </li>
+            })}
+          </ul>
+        </div>
         <Footer />
       </div>
     </div>

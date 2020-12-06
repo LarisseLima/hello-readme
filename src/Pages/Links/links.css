@@ -1,9 +1,42 @@
+li {
+    font-size: 15px;
+}
+
+.list__warper {
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 input{
     border: none;
-    border-bottom: 2px solid #fa008a;
-    width: 300px;
+    border-bottom: 2px solid #0B090A;
+    width: 400px;
     padding: 20px;
+    padding-top: 50px;
     outline: none;
     text-align: center;
-    margin-right: 20px;
+    margin-left: 450px;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.card {
+    width: 448px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #0B090A;
+    border-radius: 7px;
+    
+}
+
+.card:hover {
+    background: #0B090A;
 }
