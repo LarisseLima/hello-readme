@@ -21,7 +21,7 @@ export default function Tips() {
           pageTitle='Dicas'
         />
         <h2>O que é README?</h2>
-        <p>README.md é um arquivo com extensão .md (Markdown). README é uma palavra em inglês que traduzida fica LEIAME.</p>
+        <p>README.md é um arquivo com extensão .md (Markdown). É uma palavra em inglês que traduzida fica LEIAME.</p>
         <p>É o “primeiro passo” ao abrir um novo projeto, seja pra ver a documentação, dicas essenciais que precisa saber para rodar o projeto, descrição de seu projeto, etc. Tudo isso pode e deve ser adicionado no README!</p>
         <h2>Estrutura básica de um README</h2>
         <h3> Titulo e descrição do projeto</h3>
@@ -53,7 +53,7 @@ export default function Tips() {
         Geralmente você cria um arquivo LICENSE.</p>
         <img className="img-di" src={Imgli} alt="Código licença do Readme" />
 
-        <p>Hey Dev, ainda temos mais conteúdo para te ajudar, artigos,vídeos e templates prontos , vá para a página de
+        <p>Hey Dev, se ainda está perdido temos mais alguns conteúdos para te ajudar, artigos,vídeos e templates prontos , vá até a página de
         <span className='span-link'><Link to='/links'> Links! </Link></span>
         </p>
       </main>
