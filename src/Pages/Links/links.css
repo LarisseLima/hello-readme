@@ -29,14 +29,19 @@ input{
 
 }
 .card {
-    width: 448px;
+    width: 350px;
     margin: 30px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
     padding: 20px;
     border: 1px solid #0B090A;
-    border-radius: 7px;
+    border-radius: 8px;
     
 }
 
 .card:hover {
     background: #0B090A;
+    /* background: #FF69BF; */
+	
 }

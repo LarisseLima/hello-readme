@@ -52,7 +52,7 @@
 	position: relative;
 	right: 0;
 	bottom: 0;
-	width: 140px;
+	width: 180px;
 	height: 60px;
 	background: #fa008a;
 	border-radius: 30px;
@@ -60,12 +60,44 @@
 	align-items: center;
 	justify-content: center;
 	transition: background-color 0.2s;
+	z-index: 1;
+
 
 }
 
 .content-wrapper .enter-app:hover {
-	background: #FF69BF;
-	-webkit-transform: scale(1.3);
+	/* background: #FF69BF; */
+	animation: brilha 8s linear infinite;
+	/* -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
-        transform: scale(1.3);
+        transform: scale(1.3); */
+}
+
+@keyframes brilha {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+.content-wrapper .enter-app:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #FA008A, #f441a5, #ffeb3b, #FF69BF);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+  
+}
+.content-wrapper .enter-app:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: brilha 8s linear infinite;
 }
