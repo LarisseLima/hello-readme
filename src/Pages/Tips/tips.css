@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
 
 .tips__page-header {
@@ -22,9 +22,7 @@ main p {
    color:  #0e0d0d;
    margin-top: 16px;
    font-size: 20px;
-   font-family: 'Nunito', sans-serif;
-   /* text-indent: 1.5em; */
-   
+   font-family: 'Prompt', sans-serif;
 }
 
  .img-di {

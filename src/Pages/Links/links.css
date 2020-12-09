@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
 li {
     font-size: 15px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 .list__warper {
@@ -34,12 +34,13 @@ input{
 .card {
     width: 350px;
     margin: 30px;
+    display: flex;
     align-items: center;
     margin-right: 80px;
     margin-left: 80px;
     padding: 20px;
     border: 1px solid #0B090A;
-    border-radius: 8px;
+    border-radius: 9px;
     background-color: #f0efeb;
     
     
@@ -47,6 +48,4 @@ input{
 
 .card:hover {
     background: #0B090A;
-    /* background: #FF69BF; */
-	
 }

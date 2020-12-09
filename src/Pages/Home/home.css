@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
 
 #home__page {
     padding: 2rem;
@@ -25,34 +26,33 @@
 }
 
 #home__page .content-wrapper main {
-	max-width: 350px;
-	
+	max-width: 350px;	
 }
 
 #home__page .content-wrapper main h1 {
 	margin-top: 30px;
-	font-size: 96px;
+	font-size: 100px;
 	font-weight: 900;
     line-height: 80px;
 	color: #fa008a;
 	font-family: 'Kalam', cursive;
-	
 }
 
 .content-wrapper main p {
-	margin-top: 20px;
-	font-size: 25px;
+	margin-top: 18px;
+	font-size: 18px;
 	line-height: 34px;
 	color: #fa008a;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Prompt', sans-serif;
 }
+
 .content-wrapper .enter-app {
 	font-size: 18px;
 	font-family: 'Kalam', cursive;
 	position: relative;
 	right: 0;
 	bottom: 0;
-	width: 180px;
+	width: 190px;
 	height: 60px;
 	background: #fa008a;
 	border-radius: 30px;

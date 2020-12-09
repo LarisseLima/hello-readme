@@ -12,8 +12,8 @@ export default function Home() {
       <div className="content-wrapper">
         <main>
           <Nav />
-          <h1>Hello Readme</h1>
-          <p> Vamos ajudar desenvolvedores a construir seu Readme bonitão?!</p>
+          <h1>Hello Readme!</h1>
+          <p> Vamos ajudar programadores a construir seu Readme bonitão?</p>
         </main>
         <Link to="/links" className="enter-app">Buscar Links</Link>
         <Footer />

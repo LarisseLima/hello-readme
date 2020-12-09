@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
 .nav__wrapper{
   display: flex;
   justify-content: space-between;
@@ -24,16 +26,15 @@
   ul {
     display: flex;
     color: #fa008a;
-   
   }
   
   .link {
     color: #fa008a;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: 'Kalam', cursive;
     cursor: pointer;
     margin-right: 30px;
-   
   }
 
   .selected-link {
