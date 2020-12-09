@@ -3,6 +3,7 @@
 li {
     font-size: 15px;
     font-family: 'Prompt', sans-serif;
+    align-items: center;
 }
 
 .list__warper {
@@ -42,9 +43,10 @@ input{
     border: 1px solid #0B090A;
     border-radius: 9px;
     background-color: #f0efeb;
-    
+    /* font-weight: bolder; */
     
 }
+
 
 .card:hover {
     background: #0B090A;

@@ -42,7 +42,7 @@ export default function Links() {
         <div id="container">
           <ul className="list__warper" >
             {content.map((item, index) => {
-              return <li className="card" key={index}> <a target="_blank" href={item.link}>{item.type} - {item.title}</a> </li>
+              return <li className="card" key={index}> <a target="_blank" href={item.link}>{item.title} <br /><strong>#{item.type}</strong> </a> </li>
             })}
           </ul>
         </div>
