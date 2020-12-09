@@ -53,7 +53,7 @@ export default function Tips() {
         Geralmente você cria um arquivo LICENSE.</p>
         <img className="img-di" src={Imgli} alt="Código licença do Readme" />
 
-        <p>Hey Dev, se ainda está perdido temos mais alguns conteúdos para te ajudar, artigos,vídeos e templates prontos , vá até a página de
+        <p>Hey Dev, se ainda está perdido temos mais alguns conteúdos para te ajudar artigos,vídeos e templates prontos , vá até a página de
         <span className='span-link'><Link to='/links'> Links! </Link></span>
         </p>
       </main>
