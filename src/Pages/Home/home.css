@@ -40,6 +40,7 @@
 
 .content-wrapper main p {
 	margin-top: 18px;
+	margin-left: 30px;
 	font-size: 18px;
 	line-height: 34px;
 	color: #fa008a;
@@ -50,7 +51,6 @@
 	font-size: 18px;
 	font-family: 'Kalam', cursive;
 	position: relative;
-	right: 0;
 	bottom: 0;
 	width: 190px;
 	height: 60px;

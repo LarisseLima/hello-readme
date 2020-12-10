@@ -24,6 +24,7 @@ export default function Tips() {
         <p>README.md é um arquivo com extensão.md (Markdown). A palavra em inglês traduzida fica LEIAME.</p>
         <p>É o “primeiro passo” ao abrir um novo projeto, seja pra ver a documentação, dicas essenciais que precisa saber para rodar o projeto, descrição de seu projeto, etc. Tudo isso pode e deve ser adicionado no README!</p>
         <h2>Estrutura básica de um README</h2>
+
         <h3> Titulo e descrição do projeto</h3>
         <p>Título, coloque um  nome curto do projeto</p>
         <img className="img-di" src={Imgno} alt="Código título do Readme" />
