@@ -59,7 +59,7 @@ $  yarn start ou npm start
 
 ## 📝 Licença
 
-Este projeto está sob a licença [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](https://github.com/LarisseLima/hello-readme/blob/master/LICENSE).
 
 Feito com :coffee: por Larisse Lima  
 
