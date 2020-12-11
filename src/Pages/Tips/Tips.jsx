@@ -26,7 +26,7 @@ export default function Tips() {
         <h2>Estrutura básica de um README</h2>
 
         <h3> Titulo e descrição do projeto</h3>
-        <p>Título, coloque um  nome curto do projeto</p>
+        <p>Título: Coloque um  nome curto do projeto</p>
         <img className="img-di" src={Imgno} alt="Código título do Readme" />
         <p> Descrição: Uma breve descrição do objetivo do projeto.</p>
         <img className="img-di" src={Imgdes} alt="Código descrição do Readme" />

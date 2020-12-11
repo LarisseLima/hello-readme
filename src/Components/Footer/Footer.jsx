@@ -9,7 +9,8 @@ export default function Footer() {
   const path = useLocation().pathname;
   return (
     <div className={path !== '/' ? 'footer__wrapper' : ''}>
-      <footer className="foote__bio">
+      <footer className="footer__bio">
+        <div className="autora"><p>2020 - Larisse Lima</p></div>
         <a href="https://www.linkedin.com/in/larisselima/" className="icone-redes-in"
           target="blank">
           <AiFillLinkedin />
@@ -23,6 +24,6 @@ export default function Footer() {
           <MdEmail />
         </a>
       </footer>
-    </div>
+    </div >
   )
 }

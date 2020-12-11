@@ -52,17 +52,16 @@
 	font-family: 'Kalam', cursive;
 	position: relative;
 	bottom: 0;
-	width: 190px;
+	width: 200px;
 	height: 60px;
 	background: #fa008a;
 	border-radius: 30px;
+	margin-left: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: background-color 0.2s;
 	z-index: 1;
-
-
 }
 
 .content-wrapper .enter-app:hover {
