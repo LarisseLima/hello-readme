@@ -37,7 +37,7 @@ $  yarn start ou npm start
 ```
 
 
-## 🛠 Tecnologia
+## 🛠 TecnologiaS
 
 - [React](https://pt-br.reactjs.org/) 
 - [Yarn](https://yarnpkg.com/)  
