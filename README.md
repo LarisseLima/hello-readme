@@ -33,7 +33,7 @@ $ yarn install ou npm install
 # Execute a aplicação em modo de desenvolvimento
 $  yarn start ou npm start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A aplicação será aberta na porta: 3000 - acesse http://localhost:3000
 ```
 
 
