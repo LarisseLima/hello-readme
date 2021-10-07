@@ -13,7 +13,7 @@
 
 
 ## 💻 Sobre
-O projeto consiste em uma plataforma com materiais de estudo , a desenvolvedores que querem aprender a construir um bom Readme. Para que estudantes e iniciantes na área consigam um material de apoio direto, através de vídeos, artigos e templates. Um Readme bem elaborado é essencial num processo seletivo, intruções de como executar o projeto. 
+O projeto é uma plataforma com materiais de estudo , a desenvolvedores que querem aprender a construir um bom Readme. Para que estudantes e iniciantes na área consigam um material de apoio direto, através de vídeos, artigos e templates. Um Readme bem elaborado é essencial num processo seletivo, intruções de como executar o projeto. 
 
 ---   
 
