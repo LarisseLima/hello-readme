@@ -2,7 +2,7 @@
 
 
 <h4 align="center"> 
-	🚧  Hello Readme! 🚀 Em constante construção...  🚧
+	 Hello Readme! 
 </h4>
 <p align="center">
  <a href="#-sobre">Sobre</a> •
